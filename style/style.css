@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Edirne-Normal";
+    src: url("../fonts/Edirne-Normal-cyrillic.woff") format("woff"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+h1{
+    font-family: "Edirne-Normal";
+}
+
+
+
+body{
+    font-family: "Roboto", serif;
+}
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: black;
+}
+.header{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header>a{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+
+}
+.menu>li{
+    margin-right: 20px;
+}
+.menu>li:last-child{
+    margin-right: 0;
+}
+.menu>li>a{
+    color: white;
+    font-size: 20px;
+}
+.banner{
+    background-image: url('../img/banner-index.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+.banner>h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.info{
+    padding: 80px 0;
+}
+.info-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.info-text{
+    font-size: 24px;
+    max-width: 610px;
+    text-align: justify;
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+.img>img{
+    width: 500px;
+}
+.img>p{
+    text-align: center;
+    color: #A9A9A9;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.theme-box{
+    display: flex;
+    justify-content: space-between;
+}
+.theme-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.theme-item>img{
+    width: 350px;
+    margin-bottom: 20px;
+}
+.theme-item>h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.theme-item>a{
+    border: 2px solid black;
+    padding: 16px 40px;
+    color: black;
+    font-size: 18px;
+}
+.theme-item>a:hover{
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+}
+footer{
+    background-color: black;
+    padding: 40px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer>a{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+
+.footer>.menu>li:last-child{
+    margin-bottom: 0;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact>a{
+    color: white;
+    font-size: 18px;
+}
+.contact>button{
+   margin-bottom: 20px;
+   background: transparent;
+   border: 2px solid white;
+   border-radius: 10px;
+   padding: 10px 20px;
+   color: white;
+   cursor: pointer;
+}
+.title-text{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.title-text>h2{
+    max-width: 1000px;
+    line-height: 200%;
+    text-align: center;
+}
+.img_pos1{
+position: absolute ;
+top: 175px;
+left: 370px;
+height: 252px;
+width: 378px !important;
+}
+.img_pos2{
+position: absolute;
+top: 0px;
+left: 768px;
+height: 250px;
+width: 432px !important;
+}
+.marging-bottom{
+    padding-bottom: 1000px;
+}
+.img_box{
+    height: 2600px;
+}
+.p_1{
+    position: absolute;
+    top: 427px;
+    left: 370px;
+}
+.p_2{
+    position: absolute;
+    top: 250px;
+    left: 768px;
+}
+.container_war{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    display: flex !important;
+    flex-direction: column !important;
+}
+iframe{
+    margin-bottom: 50px;
+}
+.info-text-war{
+    font-size: 24px;
+    width: 560px;
+    text-align: justify;
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.info-text-who{
+    font-size: 24px;
+    width: 950px;
+    text-align: justify;
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.img_ttl{
+    position: absolute;
+    width: 633px;
+    height: 424px;
+    left: 500px;
+    top: 88px;
+}
+.img_total{
+    width: 633px;
+    height: 424px;
+}
+.info-text-total{
+    font-size: 24px;
+    max-width: 1200px;
+    text-align: justify;
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+.img_ttl>p{
+    text-align: center;
+    color: #A9A9A9;
+    font-size: 14px;
+    margin-top: 5px;
+}
